@@ -23,3 +23,5 @@ Cette application nous permet de gérer une liste de contacts avec des fonctionn
 ## Exigences
 - PHP 8.2.18
 - MySQL 8.3.0
+
+Lien du projet GitHub : https://github.com/Liovax1/TP2_PHP.git
