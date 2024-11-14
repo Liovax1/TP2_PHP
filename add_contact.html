@@ -1,0 +1,24 @@
+<!--Formulaire d'ajout de contact-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ajouter un Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Ajouter un Contact</h1>
+    <form action="add_contact.php" method="POST">
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="telephone" placeholder="Téléphone" required>
+        <button type="submit">Ajouter</button>
+    </form>
+</div>
+
+</body>
+</html>
